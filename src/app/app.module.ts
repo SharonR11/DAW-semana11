@@ -13,8 +13,10 @@ import { CrearProductosComponent } from './pages/productos/crear-productos/crear
 import { NavbarComponent } from './pages/navbar/navbar.component';
 import { VerProductoComponent } from './pages/productos/ver-producto/ver-producto.component';
 import { EditarProductosComponent } from './pages/productos/editar-productos/editar-productos.component';
-import { TiendasComponent } from './pages/tiendas/tiendas.component';
 import { GoogleMapsModule } from '@angular/google-maps';
+import { CrearUbicacionComponent } from './pages/tiendas/crear-ubicacion/crear-ubicacion.component';
+import { EditarUbicacionComponent } from './pages/tiendas/editar-ubicacion/editar-ubicacion.component';
+import { ListarUbicacionComponent } from './pages/tiendas/listar-ubicacion/listar-ubicacion.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { GoogleMapsModule } from '@angular/google-maps';
     NavbarComponent,
     VerProductoComponent,
     EditarProductosComponent,
-    TiendasComponent
+    CrearUbicacionComponent,
+    EditarUbicacionComponent,
+    ListarUbicacionComponent
   ],
   imports: [
     BrowserModule,

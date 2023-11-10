@@ -16,11 +16,11 @@ interface MarkerProperties {
 };
 
 @Component({
-  selector: 'app-tiendas',
-  templateUrl: './tiendas.component.html',
-  styleUrls: ['./tiendas.component.css']
+  selector: 'app-listar-ubicacion',
+  templateUrl: './listar-ubicacion.component.html',
+  styleUrls: ['./listar-ubicacion.component.css']
 })
-export class TiendasComponent {
+export class ListarUbicacionComponent {
 
   mapOptions: google.maps.MapOptions = {
     center: { lat: -12.03581, lng: -76.958392 },

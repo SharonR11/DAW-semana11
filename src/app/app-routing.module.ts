@@ -5,7 +5,7 @@ import { EditarProductosComponent } from './pages/productos/editar-productos/edi
 import { ListarProductosComponent } from './pages/productos/listar-productos/listar-productos.component';
 import { CreateUserComponent } from './pages/users/create-user/create-user.component';
 import { LoginComponent } from './pages/users/login/login.component';
-import { TiendasComponent } from './pages/tiendas/tiendas.component';
+import { ListarUbicacionComponent } from './pages/tiendas/listar-ubicacion/listar-ubicacion.component';
 
 const routesInicio: Routes = [
   { path: '', component: LoginComponent },
@@ -13,7 +13,7 @@ const routesInicio: Routes = [
   { path: 'listar-productos', component: ListarProductosComponent },
   { path: 'crear-productos', component: CrearProductosComponent },
   { path: 'editar-producto/:id', component: EditarProductosComponent },
-  { path: 'tiendas', component: TiendasComponent },
+  { path: 'tiendas', component: ListarUbicacionComponent },
   { path: '**', redirectTo: '', pathMatch: 'full'}
 ];
 
