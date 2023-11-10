@@ -14,7 +14,7 @@ import { NavbarComponent } from './pages/navbar/navbar.component';
 import { VerProductoComponent } from './pages/productos/ver-producto/ver-producto.component';
 import { EditarProductosComponent } from './pages/productos/editar-productos/editar-productos.component';
 import { TiendasComponent } from './pages/tiendas/tiendas.component';
-
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
@@ -32,7 +32,8 @@ import { TiendasComponent } from './pages/tiendas/tiendas.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
